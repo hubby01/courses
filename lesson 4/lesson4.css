@@ -1,0 +1,43 @@
+
+.home {
+    width               : 200px;
+    height              : 100px;
+    /* background-image    : url("index.jpg");
+    background-position : 50%;
+    background-size     : 60px;
+    background-repeat   : no-repeat; */
+    /* color               : black;
+    background-color    : green; */
+    /* overflow         : auto;
+    border              : 3px solid black;
+    float               : left;
+    background-color    : green;
+    color               : white; */
+}
+
+.thomas {
+    border-radius: 50px;
+    width        : 100px;
+    height       : 100px;
+    float        : right;
+    transition   : all 0.8s ease-in-out;
+}
+
+.thomas:hover {
+    width        : 200px;
+    height       : 200px;
+    border-radius: 50%;
+    rotate       : 360deg;
+    
+} 
+
+/* img {
+   width: 100px;
+   height: 100px;
+   object-fit: contain; 
+} */
+
+.svg {
+    width: 10px;
+    height: 10px;
+}

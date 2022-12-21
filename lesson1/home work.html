@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>title</title>
+<style>
+/* Это комментарий! Применение стилей (CSS) к тегу */
+body {
+background-color: lightslategray;
+}
+/* Это комментарий! Применение стилей (CSS) к классу */
+.some-block {
+width: 100px;
+height: 100px;
+background-color: lightcoral;
+}
+/* Это комментарий! Применение стилей (CSS) по классу и тегу */
+.some-block span {
+width: 50px;
+height: 50px;
+background-color: lightblue;
+display:inline-block;
+}
+.inline-tags span {
+color:blanchedalmond; background-color:black;
+display:inline-block;
+}
+.inline-tags b {
+background-color:black; color:antiquewhite;
+}
+button{
+color:black; 
+background-color:beige;
+}
+.div1-tags {
+color:red; 
+background-color:yellow;
+height:100px;
+font-size:32px;
+}
+h1 {
+color:rgb(226, 125, 43);
+background-color:aquamarine;
+}
+h6 {
+color:rgb(4, 4, 4);
+background-color:aqua;
+}
+p {
+background-color:lightblue;
+}
+.inline-tags b {
+display:inline-block;
+}
+</style>
+</head>
+<body>
+<!--Это комментарий! P.S. - Цвета можете указывать любые-->
+<!--Это комментарий! P.S. - Текста тоже-->
+<div class="main-block">
+    <div class="some-block">
+    <span>привет как дела?</span>
+    </div>
+    <div class="block-tags">
+    <div class="div1-tags">
+        Привет! Я блочный тег (Я главный!!! Служу для создания блоков и обёрток.) <br>
+    Мы (блочные) занимаем ширину контейнера, в котором находимся.
+    </div>
+        <h1>
+    Привет! Я блочный тег (Я для больших заголовков)
+        </h1>
+        <h6>
+    Привет! Я блочный тег (Я для маленьких заголовков)
+        </h6>
+        <p>
+    Привет! Я блочный тег (Я для текстов)
+        </p>
+</div>
+
+    <hr>
+    <hr>
+    <br>
+    <br>
+
+<div class="inline-tags">
+    <span>
+    А я обычный строчный тег, наша ширина зависит от контента внутри нас 
+    </span>
+    <b>
+    и я строчный тег, но толстый
+    </b>
+    <button>
+    и я строчный тег, но кнопка
+    </button>
+</div>
+
+    <!--Молодцы вы подготовили нашу базу, для дальнейшей работы-->
+
+    <hr>
+    <br>
+    <br>
+    <br>
+
+<div>
+    <h4>
+        Задание для первого урока: Найти и вставить теги...
+    </h4>
+    <ul>
+    <li>Оставшиеся теги заголовков</li>  
+    <li>Тег "Список" (Маркированный и нумерованный)</li>
+    <li><a a href="index.html">Ссылка</a></li>
+    <li><i>"Курсивный"</i></li>
+    <li>Теги нижнего и верхнего индекса<sub>2</sub><sup>3</sup></li>
+    </ul>
+    </div>
+
+    <hr>
+    <br>
+    <br>
+    <br>
+
+<div>
+        <h4>
+        Задание для второго урок:
+        </h4>
+    <ol>
+        <li>Выписать все стили в тег "head" -> "style". 
+        Наследовать от родительского класса: (Пример: как с .some-block)
+        </li>
+        <li> Добавить в ".some-block span" стиль "display: inline-block" 
+        и посмотреть что произойдёт. 
+        (а произойдёт то, что тег сможет принимать стили,
+        которые относятся к блочным тегам)
+        </li>
+    </ol>
+</div>
+</div>
+</body>
+</html>

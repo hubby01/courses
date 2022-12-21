@@ -1,0 +1,28 @@
+main {
+width: 500px;
+border: 2px solid rgb(8, 8, 8);
+padding: 0 20px;
+background-color: yellow;
+}
+
+.pic {
+width: 100px;
+height: 100px;
+background-color: rgb(3, 248, 60);
+margin: 20px 0;
+border: 1px solid black;
+}
+
+.pic:nth-of-type(even) {
+float: left;
+margin-right: 20px;
+}
+
+.pic:nth-of-type(odd) {
+float: right;
+margin-left: 20px;
+}
+
+p {
+  color: black;  
+}

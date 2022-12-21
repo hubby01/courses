@@ -1,0 +1,42 @@
+main {
+width: 500px;
+height: 500px;
+background-color: #ddd;
+border: 2px solid black;
+position: relative;
+left: 200px;
+top: 200px;
+}
+
+.color-block {
+width: 100px;
+height: 100px;
+position: absolute;
+border: 1px solid black;
+}
+
+.red {
+background-color: #d22;
+top: 150px;
+left: 150px;
+z-index: 3;
+}
+
+.blue {
+background-color: #05d;
+top: 150px;
+left: 150px;
+z-index: 2;
+}
+
+.green {
+background-color: #2a5;
+bottom: 150px;
+left: 150px;
+}
+
+.orange {
+background-color: #f93;
+bottom: 150px;
+right: 150px;
+}

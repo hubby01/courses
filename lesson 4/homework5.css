@@ -1,0 +1,27 @@
+.p40 {
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 40px;
+    color: blue;
+    letter-spacing: 20px;
+}
+
+.meder {
+    color: green;
+    font-size: 25px;
+    letter-spacing: 10px;
+    word-spacing: 45px;
+}
+
+.px10 {
+    color: red;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+}
+
+.kur {
+    font-style: oblique;
+}
+
+.jir {
+    font-weight: bolder;
+}

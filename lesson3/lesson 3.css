@@ -1,0 +1,64 @@
+body {
+--width: 400px;
+--width-two: 200px;
+--font-weight: bpld;
+--calculated-width: calc(var(--width) - var (--width-two));
+--border: 1px solid black;
+}
+
+.parent {
+font-weight: bold;
+/* color:  blue;
+text-decoration: none;
+border: 1px solid black; */
+border: var (--border);
+width: var(--width);
+}
+
+a {
+text-decoration: inherit;
+border: inherit;
+border-color: red;
+}
+
+.children {
+font-weight: normal;
+text-decoration: none;
+/* width: calc(500px -100px); */
+width: var(--calculated-width);
+}
+
+.container {
+width: 100vw;
+height: 300px;
+background-color: aqua;
+position: relative;
+}
+
+.item {
+width: 20px;
+height: 20px;
+background-color: burlywood;
+position: absolute;
+/* position: fixed; */
+top: 0px;
+left: 0px;
+}
+
+.first {
+background-color: blue;
+width: 80px;
+z-index: 3;
+}
+
+.second {
+background-color: black;
+border-radius: 10px;
+z-index: 2;
+}
+
+.third {
+background-color: red;
+width: 50px;
+z-index: 4;
+}

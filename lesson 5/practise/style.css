@@ -1,0 +1,263 @@
+* {
+	padding: 0;
+	margin : 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	--main-red : #e50914;
+	font-size  : 16px;
+}
+
+.main_wrapper {
+	height             : 694px;
+	width              : 100%;
+	background-image   : url('netflix.jpg');
+	background-position: center;
+	background-repeat  : no-repeat;
+	background-size    : cover;
+	/* position           : relative; */
+}
+
+.main_wrapper:before {
+	content         : "";
+	position        : absolute;
+	top             : 0;
+	left            : 0;
+	right           : 0;
+	bottom          : 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index         : 1;
+}
+
+.header {
+	padding-top: 28px;
+	margin     : 0 56px;
+	z-index    : 2;
+	position   : relative;
+}
+
+.lang {
+	display         : inline-block;
+	width           : max-content;
+	float           : right;
+	padding         : 8px 16px;
+	color           : white;
+	background-color: transparent;
+	border          : 1px solid white;
+	border-radius   : 4px;
+}
+
+.button {
+	display         : inline-block;
+	width           : max-content;
+	margin-left     : 28px;
+	padding         : 8px 16px;
+	float           : right;
+	background-color: var(--main-red);
+	border-radius   : 3px;
+	color           : white;
+	text-transform  : capitalize;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.logo {
+	display: inline-block;
+	width  : 134px;
+	fill   : var(--main-red);
+}
+
+.main_search {
+	z-index   : 2;
+	position  : relative;
+	color     : white;
+	text-align: center;
+	max-width : 950px;
+	padding   : 75px 0;
+	margin    : 0 auto;
+}
+
+.main_search h1 {
+	max-width: 640px;
+	font-size: 50px;
+	margin   : 0 auto;
+}
+
+.main_search p {
+	margin   : 24px auto;
+	max-width: 640px;
+}
+
+.main_search p:nth-child(2) {
+	font-size: 24px;
+}
+
+.search_wrapper {
+	max-width : 640px;
+	margin    : 0 auto;
+	box-sizing: border-box;
+	font-size : 18px;
+}
+
+.search_wrapper .button {
+	width      : 20%;
+	margin-left: 0;
+	padding    : 16px 16px;
+}
+
+.input_search {
+	padding  : 16px 4px;
+	width    : 70%;
+	font-size: 14px;
+	border   : none;
+	outline  : none;
+}
+
+.container {
+	background-color: black;
+	padding         : 70px 45px;
+	color           : white;
+	margin          : 0 auto;
+	display         : flex;
+	justify-content : space-between;
+	border-top      : 10px solid #222;
+	
+}
+
+.left {
+	flex-direction: row-reverse;
+}
+
+.container .texts {
+	width          : 45%;
+	display        : flex;
+	flex-direction : column;
+	justify-content: center;
+	align-items    : center;
+}
+
+.container .texts h2 {
+	font-size    : 50px;
+	margin-bottom: 12px;
+	margin-right: auto;
+}
+
+.container .texts p {
+	font-size: 24px;
+}
+
+.container .videos {
+	width          : 45%;
+	display        : flex;
+	flex-direction : column;
+	justify-content: center;
+	align-items    : center;
+}
+
+.container .videos img {
+	width: 100%;
+	z-index: 3;
+}
+
+.videos img {
+	position: relative;
+}
+
+.mp4 {
+	position: absolute;	
+}
+
+.download_container {
+    display: flex;
+	align-items: center;
+    background: #000;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: 0.75em;
+    bottom: 8%;
+    box-shadow: 0 0 2em 0 #000;
+    position: absolute;
+    width: 60%;
+    z-index: 3;
+}
+
+
+
+.download_container img {
+	max-width: 51px;
+	max-height: 72px;
+}
+
+.text{
+	/* margin: 50px; */
+	color: white;
+	padding: 25px;
+}
+
+.text p{
+	color: blue;
+}
+
+.videos {
+position: relative;
+}
+
+.m4v_video {
+position: absolute;
+width: 61%;
+top: 54px;
+left: 116px;
+}
+
+.m4v_video video {
+	width: 100%;
+}
+
+.giv {
+	display: block;
+	background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+	background-size: 100%;
+
+}
+
+.container_5 {
+	background-color: black;
+	padding         : 70px 45px;
+	color           : white;
+	margin          : 0 auto;
+	display         : block;
+	justify-content : space-between;
+	border-top      : 10px solid #222;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+}
+
+.container_5 button{
+	width: 815px;
+    height: 75px;
+	margin-top: 10px;
+	text-align: left;
+	/* padding: 0.8em 2.2em 0.8em 1.2em; */
+	font-size: 20px;
+	background: #232323;
+	color: white;
+}
+
+.container_5 h1 {
+	font-size: 50px;
+	padding: 30px;
+	margin-bottom: 15px;
+}
+
+.icon {
+	display: block;
+    position: absolute;
+	right: 19px;
+	bottom: 14px;
+}
+
